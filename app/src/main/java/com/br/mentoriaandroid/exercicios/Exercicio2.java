@@ -16,7 +16,9 @@ public class Exercicio2 {
         int razao = 2; // Valor de incremento
         int valorInicial = 0; // A progressão aritmética sempre começará do 0
 
-        // Resolva aqui dentro
+        for(int i = 0; i < valorMaximo; i++ ) {
+            valorInicial = valorInicial + razao;
+        }
 
     }
 
@@ -27,7 +29,11 @@ public class Exercicio2 {
         * 100, 10, 3.16, 1.78, 1.33, 1.15, 1.07, 1.03 e 1.01.
          */
 
-        // Resolva aqui dentro
+        double valorAtual = valorInicial;
+
+        while(valorAtual >= 1) {
+            valorAtual = Math.sqrt(valorAtual);
+        }
 
     }
 }
