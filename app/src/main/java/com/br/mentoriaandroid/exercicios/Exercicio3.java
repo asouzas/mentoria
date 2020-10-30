@@ -22,7 +22,9 @@ public class Exercicio3 {
          * Exemplo: Se age == 10, então, o código deverá ter o resultado de 3650 dias.
          * */
 
-        // Escreva seu código aqui.
+        String resultado;
+
+        resultado = age * 365 + " dias.";
 
     }
 
