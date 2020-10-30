@@ -28,7 +28,7 @@ public class Exercicio3 {
         result = age * 365 + " dias.";
 
         // Variável
-        int dias = 0;
+        int dias = 5;
         int dados = 365;
 
 
