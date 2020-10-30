@@ -24,6 +24,18 @@ public class Exercicio3 {
 
         // Escreva seu código aqui.
 
+        // Variável
+        int dias = 0;
+        int dados = 365;
+        
+
+        // Solução
+
+        if (age > 0) {
+           dias = age * dados;
+        }
+
+
     }
 
     public void getPreviousAndNext(int value) {
