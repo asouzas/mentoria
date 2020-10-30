@@ -57,13 +57,13 @@ public class Exercicio3 {
         //Variável
         int antValue = value - 1;
         int sucValue = value + 1;
-        int result = 0;
 
+        // Teste Branch
 
         //Solução
         if (value >= 0) {
             result = antValue;
-        } else { result = sucValue;
+        } else { result = sucValue; }
 
 
     }
