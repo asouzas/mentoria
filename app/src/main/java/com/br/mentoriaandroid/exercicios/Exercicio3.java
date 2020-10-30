@@ -27,7 +27,7 @@ public class Exercicio3 {
         // Variável
         int dias = 0;
         int dados = 365;
-        
+
 
         // Solução
 
@@ -45,6 +45,18 @@ public class Exercicio3 {
          */
 
         // Escreva seu código aqui.
+
+        //Variável
+        int antValue = value - 1;
+        int sucValue = value + 1;
+        int result = 0;
+
+
+        //Solução
+        if (value >= 0) {
+            result = antValue;
+        } else { result = sucValue;
+
 
     }
 }
