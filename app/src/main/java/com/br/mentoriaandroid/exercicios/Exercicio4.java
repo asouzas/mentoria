@@ -29,6 +29,28 @@ public class Exercicio4 {
 
         // Escreva seu código aqui
 
+        // Variável
+        int result = 0;
+
+        //Solução
+        switch (operation) {
+            case "Soma":
+                result = val1 + val2;
+                break;
+
+            case "Subtração":
+                result = val1 - val2;
+                break;
+
+            case "Multiplicação":
+                result = val1 * val2;
+                break;
+
+            case "Divisão":
+                result = val1 / val2;
+                break;    
+        }
+
     }
 
     public void calculateAverage(int totalValue, int quantity) {
