@@ -61,5 +61,15 @@ public class Exercicio4 {
          */
 
         // Escreva seu código aqui
+
+        //Variáveis
+        int average = totalValue / quantity;
+
+
+        //Solução
+        if (average % 2 == 0) {
+            System.out.println("Número par");
+        } else { int result = average + 1; }
+
     }
 }
