@@ -137,6 +137,7 @@ public class Automovel {
         }
     }
 
+    //posso incluir outros métodos que não sejam sobre dirigir o veículo, exemplo seguro
 
 }
 
